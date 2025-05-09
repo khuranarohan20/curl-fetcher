@@ -24,6 +24,13 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+const logContainer = document.createElement("div");
+logContainer.style.padding = "1rem";
+document.body.appendChild(logContainer);
+
 window.electronAPI.onLog((msg) => {
   console.log("From main process:", msg);
+  const line = document.createElement("div");
+  line.textContent = msg;
+  logContainer.appendChild(line);
 });

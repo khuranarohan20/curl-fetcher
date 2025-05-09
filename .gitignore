@@ -67,3 +67,4 @@ vue/dist
 
 # Cache
 .cache
+dist/

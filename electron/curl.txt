@@ -1,0 +1,10 @@
+curl 'http://new.admin.ac.corp/api/Fancentro_User.list?_method=Fancentro_User.list&tz=2&class=Adultcentro%5CAmcAdmin%5CObject%5CSnapcentro_User&fields\[0\]=state&fields\[1\]=phone.code&fields\[2\]=phone.number&fields\[3\]=disableOneClick&fields\[4\]=id&fields\[5\]=login&fields\[6\]=email&fields\[7\]=regDate&fields\[8\]=country&fields\[9\]=ip()&fields\[10\]=stateStr&fields\[11\]=member.id&limit=50&offset=50&metaFields\[totalCount\]=1' \
+  -H 'Accept: */*' \
+  -H 'Accept-Language: en,en-US;q=0.9,es;q=0.8' \
+  -H 'Access-Control-Allow-Credentials: true' \
+  -H 'Connection: keep-alive' \
+  -H 'Content-type: application/x-www-form-urlencoded' \
+  -b 'fox_rootadmin_auth=2hxa162b64sgock44gcs0g4g8' \
+  -H 'Referer: http://new.admin.ac.corp/fancentro/users/page=2' \
+  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36' \
+  --insecure
